@@ -8,6 +8,7 @@ public:
     int leftPtr = 0;
     int rightPtr = nums.size() - 1;
     while (leftPtr <= rightPtr) {
+      // two conditions cannot be swapped, otherwise it may cause overflow.
       while (leftPtr <= rightPtr && nums[leftPtr] != val)
         leftPtr++;
       while (leftPtr <= rightPtr && nums[rightPtr] == val)
