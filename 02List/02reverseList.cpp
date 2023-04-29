@@ -7,7 +7,7 @@ struct ListNode {
   ListNode(int x, ListNode *ptr = nullptr) : val(x), next(ptr){};
 };
 
-// version: no recursive
+// no recursive version
 // class Solution {
 // public:
 //   ListNode *reverseList(ListNode *head) {
