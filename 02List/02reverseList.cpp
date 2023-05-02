@@ -12,6 +12,8 @@ struct ListNode {
 // public:
 //   ListNode *reverseList(ListNode *head) {
 //     ListNode *cur = head;
+
+// //nullptr could be viewd as a reversed list/
 //     ListNode *pre = nullptr;
 //     while (cur != nullptr) {
 //       ListNode *temp = cur->next;
